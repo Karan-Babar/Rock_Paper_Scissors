@@ -16,6 +16,7 @@ h1{
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
+  gap: 3rem;
 }
 
 .choice{
@@ -36,3 +37,29 @@ img:hover{
     box-shadow: 0 5px 30px rgb(68, 32, 109);
     cursor: pointer;
 }
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 5rem;
+}
+
+.msg-container{
+    margin-top: 3rem;
+}
+
+#msg{
+    font-size: 2rem;
+    background-color: #003049;
+    color: white;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+} 
